@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Song II</title>
+	<link href="style.css" type="text/css" rel="stylesheet">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+	</script>
+</head>
+<body>
+	<div id="overlay">
+	<div id="player">
+		<audio autoplay="autoplay" controls="controls">
+			<source src="My Song II.mp3" type="audio/mp3" />
+			<source src="My Song II.ogg" type="audio/ogg" />
+			Your browser does not support the audiovisual element.
+		</audio>
+	</div>
+	</div>
+	<script>
+		$(function() {
+
+			$("#player").fadeOut(144000);
+			
+		});
+	</script>
+</body>
+
+</html>
