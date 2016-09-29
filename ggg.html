@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>ggg</title>
+	<link href="style.css" type="text/css" rel="stylesheet">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+	</script>
+</head>
+
+<body>
+	<div id='overlay'>
+		<div id="player">
+			<!-- <audio id="mytrack" autoplay="autoplay" controls>
+				<source src="ggg.mp3" type="audio/mp3" />
+				<source src="ggg.ogg" type="audio/ogg" />
+				Your browser does not support the audiovisual element.
+			</audio> -->
+			<nav>
+				<div id="defaultBar">
+					<div id="progressBar"></div>
+				</div>
+				<div id="buttons">
+					<button type="button" id="playButton" onclick="playOrPause"></button>
+					<button type="button" id="muteButton"></button>
+					<span id="currentTime">0:00</span>/<span id="fullDuration">0:00</span>
+				</div>
+			</nav>
+		</div>
+		<script type="text/javascript" src="controls.js"></script>
+	</div>
+
+	<script>
+		$(function() {
+
+			$("#player").fadeOut(124000);
+			
+		});
+	</script>
+</body>
+
+</html>
